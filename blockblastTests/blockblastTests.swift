@@ -1,17 +1,24 @@
-//
-//  blockblastTests.swift
-//  blockblastTests
-//
-//  Created by burak coşkun on 12.02.2026.
-//
-
+import Foundation
 import Testing
 @testable import blockblast
 
-struct blockblastTests {
+struct blockblastSmokeTests {
+    @Test func reducerDispatchesInvalidMove() {
+        let state = StartNewGame.makeInitialState(
+            mode: .classic,
+            gridSize: 8,
+            seed: 42,
+            remoteTuning: nil
+        )
+        let engine = GameEngine(initialState: state, autoSaveEnabled: false)
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+        let events = engine.dispatch(.placePiece(pieceID: UUID(), anchor: Cell(row: 0, column: 0)))
+
+        #expect(events.contains(where: { event in
+            if case .invalidMove = event {
+                return true
+            }
+            return false
+        }))
     }
-
 }

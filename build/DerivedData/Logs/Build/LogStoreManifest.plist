@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>1EF5DAEC-D0C0-4C01-A3B8-C7ED277316E0</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1EF5DAEC-D0C0-4C01-A3B8-C7ED277316E0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>blockblast project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>blockblast</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project blockblast with scheme blockblast</string>
+			<key>timeStartedRecording</key>
+			<real>792581070.46467197</real>
+			<key>timeStoppedRecording</key>
+			<real>792581074.92911398</real>
+			<key>title</key>
+			<string>Testing project blockblast with scheme blockblast</string>
+			<key>uniqueIdentifier</key>
+			<string>1EF5DAEC-D0C0-4C01-A3B8-C7ED277316E0</string>
+		</dict>
+		<key>E6E73DAC-09D8-40A9-8717-2E2D5312390E</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E6E73DAC-09D8-40A9-8717-2E2D5312390E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>blockblast project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>blockblast</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project blockblast with scheme blockblast and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>792581055.73005104</real>
+			<key>timeStoppedRecording</key>
+			<real>792581062.02234399</real>
+			<key>title</key>
+			<string>Building project blockblast with scheme blockblast and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>E6E73DAC-09D8-40A9-8717-2E2D5312390E</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

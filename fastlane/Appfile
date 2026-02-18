@@ -1,0 +1,8 @@
+app_identifier("burakcoskun.blockblast")
+apple_id("burakcoskun.dev@icloud.com")
+itc_team_id("3SF5MWTSQ5")
+team_id("3SF5MWTSQ5")
+
+# Replace these URLs before submission if final domains differ.
+privacy_url("https://example.com/blockblast/privacy")
+support_url("https://example.com/blockblast/support")

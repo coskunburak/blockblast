@@ -5,6 +5,7 @@
 //  Created by burak coşkun on 12.02.2026.
 //
 
+import SwiftUI
 import UIKit
 
 @main
@@ -14,7 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.backgroundColor = UIColor(red: 0.05, green: 0.07, blue: 0.11, alpha: 1.0)
+        let host = UIHostingController(rootView: BlockPuzzleRootView())
+        host.view.backgroundColor = UIColor(red: 0.05, green: 0.07, blue: 0.11, alpha: 1.0)
+        window.rootViewController = host
+        window.makeKeyAndVisible()
+        self.window = window
         return true
     }
 
@@ -37,4 +44,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'blockblastUITests' in project 'blockblast'
+➜ Explicit dependency on target 'blockblast' in project 'blockblast'
+Target 'blockblastTests' in project 'blockblast'
+➜ Explicit dependency on target 'blockblast' in project 'blockblast'
+Target 'blockblast' in project 'blockblast' (no dependencies)

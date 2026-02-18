@@ -1,0 +1,73 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "df583b7f0cd13bfc490602e08bfe19b549225f244a41fc360bb2366f76feade3"
+    }
+  ],
+  "containerPath" : "/Users/burakcoskun/Desktop/Yazılım Projeleri/XCode Project/blockblast/blockblast.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator18.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/burakcoskun/Desktop/Yazılım Projeleri/XCode Project/blockblast/build/DerivedDataLeaks/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/burakcoskun/Desktop/Yazılım Projeleri/XCode Project/blockblast/build/DerivedDataLeaks/Build/Products",
+      "derivedDataPath" : "/Users/burakcoskun/Desktop/Yazılım Projeleri/XCode Project/blockblast/build/DerivedDataLeaks",
+      "indexDataStoreFolderPath" : "/Users/burakcoskun/Desktop/Yazılım Projeleri/XCode Project/blockblast/build/DerivedDataLeaks/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/burakcoskun/Desktop/Yazılım Projeleri/XCode Project/blockblast/build/DerivedDataLeaks/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/burakcoskun/Desktop/Yazılım Projeleri/XCode Project/blockblast/build/DerivedDataLeaks/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone17,2",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "18.4",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone17,2",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/burakcoskun/Desktop/Yazılım Projeleri/XCode Project/blockblast/build/DerivedDataLeaks/Build/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "4D5D97B1-32D8-49C3-99BD-F385F1154713",
+          "TARGET_DEVICE_MODEL" : "iPhone17,2",
+          "TARGET_DEVICE_OS_VERSION" : "18.4",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

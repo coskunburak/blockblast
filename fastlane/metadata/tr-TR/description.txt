@@ -1,0 +1,9 @@
+Block Blast, kısa oyun seansları ve uzun seri hedefleri için tasarlanmış premium hisli bir bulmaca deneyimidir.
+
+- Ana Sayfa -> Mod Seçimi -> Oyun -> Sonuç akışı
+- Klasik mod ve günlük görev ilerlemesi
+- Opsiyonel ödüllü devam ve coin kazanımı
+- Yüksek kontrast erişilebilirlik modu
+- TR + EN dil desteği
+
+Hem iPhone hem iPad için akıcı dokunmatik oynanış sunar.

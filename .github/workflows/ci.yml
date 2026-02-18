@@ -1,0 +1,39 @@
+name: iOS CI
+
+on:
+  pull_request:
+  push:
+    branches: [ main, develop, "codex/**" ]
+
+jobs:
+  test:
+    runs-on: macos-14
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+
+      - name: Install tools
+        run: |
+          brew install swiftlint || true
+          gem install fastlane -N
+
+      - name: Unit + UI tests (single baseline device)
+        run: |
+          xcodebuild \
+            -project blockblast.xcodeproj \
+            -scheme blockblast \
+            -destination 'platform=iOS Simulator,name=iPhone 16 Pro Max,OS=18.4' \
+            -resultBundlePath build/TestResult-CI.xcresult \
+            test
+
+      - name: Upload xcresult
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ci-xcresult
+          path: build/TestResult-CI.xcresult

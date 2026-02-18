@@ -1,0 +1,5 @@
+Bu sürümde:
+- Premium UI düzenleme paketi
+- Yeni mod seçimi ve oyun sonu sonuç ekranı
+- Ses, titreşim, dil ve erişilebilirlik ayarları
+- iPad ölçekleme ve cihaz test iyileştirmeleri

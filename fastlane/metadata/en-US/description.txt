@@ -1,0 +1,9 @@
+Block Blast is a premium-feel puzzle experience built for quick sessions and long streaks.
+
+- Home -> Mode Selection -> Game -> Results flow
+- Classic mode and daily challenge progression
+- Rewarded second-chance and coin systems (optional)
+- Lightweight, high-contrast accessibility mode
+- TR + EN localization
+
+Designed for smooth touch gameplay on both iPhone and iPad.

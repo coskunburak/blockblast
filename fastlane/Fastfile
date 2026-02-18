@@ -1,0 +1,69 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Run unit tests + UI tests on device matrix"
+  lane :qa_matrix do
+    sh("bash blockblast/Scripts/device_matrix_test.sh")
+  end
+
+  desc "Run static checks (lint + analyze)"
+  lane :quality_gate do
+    sh("bash blockblast/Scripts/swiftlint.sh")
+    scan(
+      scheme: "blockblast",
+      clean: true,
+      devices: ["iPhone 16 Pro Max"],
+      buildlog_path: "build/logs",
+      output_directory: "build/test-reports"
+    )
+  end
+
+  desc "Run memory leak checks with xctrace"
+  lane :leak_check do
+    sh("bash blockblast/Scripts/leak_check.sh")
+  end
+
+  desc "Build and upload a TestFlight build"
+  lane :beta do
+    quality_gate
+
+    version_code = latest_testflight_build_number(
+      app_identifier: "burakcoskun.blockblast",
+      initial_build_number: 1
+    ) + 1
+
+    increment_build_number(build_number: version_code)
+
+    build_app(
+      scheme: "blockblast",
+      clean: true,
+      export_method: "app-store",
+      output_directory: "build",
+      output_name: "blockblast.ipa"
+    )
+
+    upload_to_testflight(
+      skip_waiting_for_build_processing: true,
+      changelog: "QA-stable build with Phase 6 polish and Phase 7 release pipeline."
+    )
+  end
+
+  desc "Upload metadata, screenshots and app privacy info without binary"
+  lane :upload_metadata do
+    deliver(
+      skip_binary_upload: true,
+      skip_screenshots: false,
+      skip_metadata: false,
+      force: true,
+      automatic_release: false
+    )
+  end
+
+  desc "Production release: run checks, upload beta, then upload metadata"
+  lane :release_ready do
+    qa_matrix
+    leak_check
+    beta
+    upload_metadata
+  end
+end

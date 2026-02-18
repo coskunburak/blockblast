@@ -1,0 +1,5 @@
+New in this version:
+- Complete premium UI polish pass
+- New mode selection and post-run results screens
+- Sound, vibration, language and accessibility settings
+- Better iPad scaling and device QA hardening
