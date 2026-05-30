@@ -1,9 +1,0 @@
-Starting recording with the Leaks template. Launching process: blockblast.app. Time limit: 1.0 s
-Ctrl-C to stop the recording
-Run issues were detected (trace is still ready to be viewed):
-* [Error] Failed to gain authorization
-
-	* [Error] Recovery Suggestion: Target binary needs to be debuggable and signed with 'get-task-allow
-
-Recording failed with errors. Saving output file...
-Output file saved as: memory-leaks.trace

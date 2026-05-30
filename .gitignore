@@ -1,0 +1,7 @@
+build/
+DerivedData/
+*.xcresult
+*.ipa
+*.dSYM/
+*.xcuserdata/
+.DS_Store
