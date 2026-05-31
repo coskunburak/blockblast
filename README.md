@@ -10,6 +10,24 @@ This README is written for engineers reviewing the codebase. It explains where
 the important code lives, how the app is wired, and which commands are useful
 for local verification.
 
+## App Gallery
+
+<p align="center">
+  <img src="blockblast/Assets.xcassets/IMG_7644.PNG" width="180" alt="Block Blast screenshot 1">
+  <img src="blockblast/Assets.xcassets/IMG_7645.PNG" width="180" alt="Block Blast screenshot 2">
+  <img src="blockblast/Assets.xcassets/IMG_7646.PNG" width="180" alt="Block Blast screenshot 3">
+  <img src="blockblast/Assets.xcassets/IMG_7647.PNG" width="180" alt="Block Blast screenshot 4">
+  <img src="blockblast/Assets.xcassets/IMG_7648.PNG" width="180" alt="Block Blast screenshot 5">
+  <img src="blockblast/Assets.xcassets/IMG_7649.PNG" width="180" alt="Block Blast screenshot 6">
+  <img src="blockblast/Assets.xcassets/IMG_7650.PNG" width="180" alt="Block Blast screenshot 7">
+  <img src="blockblast/Assets.xcassets/IMG_7651.PNG" width="180" alt="Block Blast screenshot 8">
+  <img src="blockblast/Assets.xcassets/IMG_7652.PNG" width="180" alt="Block Blast screenshot 9">
+  <img src="blockblast/Assets.xcassets/IMG_7653.PNG" width="180" alt="Block Blast screenshot 10">
+  <img src="blockblast/Assets.xcassets/IMG_7654.PNG" width="180" alt="Block Blast screenshot 11">
+  <img src="blockblast/Assets.xcassets/IMG_7655.PNG" width="180" alt="Block Blast screenshot 12">
+  <img src="blockblast/Assets.xcassets/IMG_7656.PNG" width="180" alt="Block Blast screenshot 13">
+</p>
+
 ## Project Snapshot
 
 | Item | Value |
